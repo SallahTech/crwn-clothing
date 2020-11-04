@@ -2,3 +2,10 @@ body {
   font-family: 'Open Sans Condensed';
   padding: 20px 60px;
 }
+
+a {
+  text-decoration: none;
+  color: #111;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
