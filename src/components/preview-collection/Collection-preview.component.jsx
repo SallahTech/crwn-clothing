@@ -2,7 +2,7 @@ import React from 'react'
 import CollectionItem from '../collection-item/Collection-item.component'
 import './Collection-preview.styles.scss'
 
-const Collectionpreview = ({ title, items }) => (
+const CollectionPreview = ({ title, items }) => (
   <div className='collection-preview'>
     <h1 className='ittle'>{title.toUpperCase()}</h1>
     <div className='preview'>
@@ -15,4 +15,4 @@ const Collectionpreview = ({ title, items }) => (
   </div>
 )
 
-export default Collectionpreview
+export default CollectionPreview
