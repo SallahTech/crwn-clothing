@@ -4,6 +4,7 @@ import { createStructuredSelector } from 'reselect'
 
 import MenuItem from '../menu-item/Menu-item.component'
 import { selectDirectorySections } from '../../redux/directory/directory.selectors'
+import './Directory.styles.scss'
 
 const Directory = ({ sections }) => {
   return (
